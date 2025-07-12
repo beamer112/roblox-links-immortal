@@ -38,3 +38,53 @@ body {
 .flag.red {
   color: #ff6666;
 }
+body {
+  background-color: #000; /* чёрный фон */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #111;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+.online {
+  color: #00ff00;
+}
+
+.flag.red {
+  color: #ff4d4d;
+}
+
+.flag {
+  color: #00ff00;
+}
